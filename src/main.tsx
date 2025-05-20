@@ -6,6 +6,11 @@ import './addTailwind.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Navbar />
+    <main className="flex flex-row h-screen bg-gray-100">
+      <Navbar />
+      <section>
+        <h1>Pagina Principal de pinterest</h1>
+      </section>
+    </main>
   </StrictMode>,
 )
